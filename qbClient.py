@@ -15,7 +15,7 @@ class qbClient:
             self.qb.download_from_link(magnet_link, category=category)
             return 0
         except Exception as e:
-            return "qbittorrent下载错误: {e}"
+            return f"qbittorrent下载错误: {e}"
 
     def file_download(self, file_link, category):
         try:

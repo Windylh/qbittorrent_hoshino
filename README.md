@@ -1,6 +1,8 @@
 ## qbittorrent for hoshino
 
 需要qbittorrent开启web ui
+
+插件没有做session过期重连处理，请设置session时间为0保持session有效。
 ### Install
 依赖库
 `pip install python-qbittorrent`
@@ -25,3 +27,4 @@
 临时摸出来的产物，还有很多细节需要优化
 > * 种子文件判断
 > * 下载feedback
+> * session过期重连
